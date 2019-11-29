@@ -1,0 +1,14 @@
+C:\Users\daian\Documents\HDR_UK\NetCore\HDR_UK_Web_Application\HDR_UK_Web_Application\bin\Debug\netcoreapp2.1\HDR_UK_Web_Application.deps.json
+C:\Users\daian\Documents\HDR_UK\NetCore\HDR_UK_Web_Application\HDR_UK_Web_Application\bin\Debug\netcoreapp2.1\HDR_UK_Web_Application.runtimeconfig.json
+C:\Users\daian\Documents\HDR_UK\NetCore\HDR_UK_Web_Application\HDR_UK_Web_Application\bin\Debug\netcoreapp2.1\HDR_UK_Web_Application.runtimeconfig.dev.json
+C:\Users\daian\Documents\HDR_UK\NetCore\HDR_UK_Web_Application\HDR_UK_Web_Application\bin\Debug\netcoreapp2.1\HDR_UK_Web_Application.dll
+C:\Users\daian\Documents\HDR_UK\NetCore\HDR_UK_Web_Application\HDR_UK_Web_Application\bin\Debug\netcoreapp2.1\HDR_UK_Web_Application.pdb
+C:\Users\daian\Documents\HDR_UK\NetCore\HDR_UK_Web_Application\HDR_UK_Web_Application\obj\Debug\netcoreapp2.1\HDR_UK_Web_Application.csprojAssemblyReference.cache
+C:\Users\daian\Documents\HDR_UK\NetCore\HDR_UK_Web_Application\HDR_UK_Web_Application\obj\Debug\netcoreapp2.1\HDR_UK_Web_Application.csproj.CoreCompileInputs.cache
+C:\Users\daian\Documents\HDR_UK\NetCore\HDR_UK_Web_Application\HDR_UK_Web_Application\obj\Debug\netcoreapp2.1\HDR_UK_Web_Application.RazorAssemblyInfo.cache
+C:\Users\daian\Documents\HDR_UK\NetCore\HDR_UK_Web_Application\HDR_UK_Web_Application\obj\Debug\netcoreapp2.1\HDR_UK_Web_Application.RazorAssemblyInfo.cs
+C:\Users\daian\Documents\HDR_UK\NetCore\HDR_UK_Web_Application\HDR_UK_Web_Application\obj\Debug\netcoreapp2.1\HDR_UK_Web_Application.AssemblyInfoInputs.cache
+C:\Users\daian\Documents\HDR_UK\NetCore\HDR_UK_Web_Application\HDR_UK_Web_Application\obj\Debug\netcoreapp2.1\HDR_UK_Web_Application.AssemblyInfo.cs
+C:\Users\daian\Documents\HDR_UK\NetCore\HDR_UK_Web_Application\HDR_UK_Web_Application\obj\Debug\netcoreapp2.1\HDR_UK_Web_Application.RazorTargetAssemblyInfo.cache
+C:\Users\daian\Documents\HDR_UK\NetCore\HDR_UK_Web_Application\HDR_UK_Web_Application\obj\Debug\netcoreapp2.1\HDR_UK_Web_Application.dll
+C:\Users\daian\Documents\HDR_UK\NetCore\HDR_UK_Web_Application\HDR_UK_Web_Application\obj\Debug\netcoreapp2.1\HDR_UK_Web_Application.pdb
