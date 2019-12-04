@@ -53,7 +53,7 @@ namespace HDR_UK_Web_Application.Controllers
         [HttpGet]
         public async Task<String> Get()
         {
-            AuthenticationConfig config = AuthenticationConfig.ReadFromJsonFile("appsettings.json");
+            AuthenticationConfig config = AuthenticationConfig.ReadFromJsonFile("appsettings.Development.json");
 
             string accessToken = await _cache.GetOrCreateAsync<string>("AccessToken", cacheEntry =>
             {

@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": "af47b8b6-d2a9-424f-ac8a-32c3c1175469",
+      "username": "Kirk",
+      "password": "1960-12-25",
+      "profile": "Patient"
+    },
+    {
+      "id": "smart-1098667",
+      "username": "Hill",
+      "password": "1953-10-27",
+      "profile": "Patient"
+    },
+    {
+      "id": "goshuserid",
+      "username": "Gosh",
+      "password": "2019-12-04",
+      "profile": "Clinician"
+    }
+  ]
+}

@@ -1,6 +1,8 @@
-﻿using Newtonsoft.Json.Linq;
+﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 
 namespace TestApp
@@ -504,6 +506,21 @@ namespace TestApp
             }";
 
             Patient.getHospitalNumberDateOfBirth(json);
+
+            StreamReader stream = new StreamReader(Current.Server.MapPath("~/Data/users.json"));
+            //string file = stream.ReadToEnd();
+            //List<string> items = JsonConvert.DeserializeObject<List<string>>(json);
+
+
+            //foreach(var item in items)
+            //{
+            //    Console.Write(item);
+            //}
+
+            string path = Path.GetFullPath("users.json");
+
+            Console.WriteLine(path);
+
             Console.ReadLine();
         }
     }

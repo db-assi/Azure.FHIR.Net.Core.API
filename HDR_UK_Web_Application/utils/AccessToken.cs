@@ -10,7 +10,7 @@ namespace HDR_UK_Web_Application.utils
     {
         public static async Task<string> CreateAccessToken()
         {
-            AuthenticationConfig config = AuthenticationConfig.ReadFromJsonFile("appsettings.json");
+            AuthenticationConfig config = AuthenticationConfig.ReadFromJsonFile("appsettings.Development.json");
 
             IConfidentialClientApplication app;
 

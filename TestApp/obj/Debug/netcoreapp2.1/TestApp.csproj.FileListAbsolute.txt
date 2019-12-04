@@ -12,3 +12,17 @@ C:\Users\daian\Documents\HDR_UK\NetCore\HDR_UK_Web_Application\TestApp\obj\Debug
 C:\Users\daian\Documents\HDR_UK\NetCore\HDR_UK_Web_Application\TestApp\bin\Debug\netcoreapp2.1\Newtonsoft.Json.dll
 C:\Users\daian\Documents\HDR_UK\NetCore\HDR_UK_Web_Application\TestApp\bin\Debug\netcoreapp2.1\Newtonsoft.Json.xml
 C:\Users\daian\Documents\HDR_UK\NetCore\HDR_UK_Web_Application\TestApp\obj\Debug\netcoreapp2.1\TestApp.csproj.CopyComplete
+C:\Users\Bassid\Documents\Dev\HDR_UK_web_app\TestApp\bin\Debug\netcoreapp2.1\TestApp.deps.json
+C:\Users\Bassid\Documents\Dev\HDR_UK_web_app\TestApp\bin\Debug\netcoreapp2.1\TestApp.runtimeconfig.json
+C:\Users\Bassid\Documents\Dev\HDR_UK_web_app\TestApp\bin\Debug\netcoreapp2.1\TestApp.runtimeconfig.dev.json
+C:\Users\Bassid\Documents\Dev\HDR_UK_web_app\TestApp\bin\Debug\netcoreapp2.1\TestApp.dll
+C:\Users\Bassid\Documents\Dev\HDR_UK_web_app\TestApp\bin\Debug\netcoreapp2.1\TestApp.pdb
+C:\Users\Bassid\Documents\Dev\HDR_UK_web_app\TestApp\bin\Debug\netcoreapp2.1\HDR_UK_Web_Application.dll
+C:\Users\Bassid\Documents\Dev\HDR_UK_web_app\TestApp\bin\Debug\netcoreapp2.1\HDR_UK_Web_Application.pdb
+C:\Users\Bassid\Documents\Dev\HDR_UK_web_app\TestApp\obj\Debug\netcoreapp2.1\TestApp.csprojAssemblyReference.cache
+C:\Users\Bassid\Documents\Dev\HDR_UK_web_app\TestApp\obj\Debug\netcoreapp2.1\TestApp.csproj.CoreCompileInputs.cache
+C:\Users\Bassid\Documents\Dev\HDR_UK_web_app\TestApp\obj\Debug\netcoreapp2.1\TestApp.AssemblyInfoInputs.cache
+C:\Users\Bassid\Documents\Dev\HDR_UK_web_app\TestApp\obj\Debug\netcoreapp2.1\TestApp.AssemblyInfo.cs
+C:\Users\Bassid\Documents\Dev\HDR_UK_web_app\TestApp\obj\Debug\netcoreapp2.1\TestApp.csproj.CopyComplete
+C:\Users\Bassid\Documents\Dev\HDR_UK_web_app\TestApp\obj\Debug\netcoreapp2.1\TestApp.dll
+C:\Users\Bassid\Documents\Dev\HDR_UK_web_app\TestApp\obj\Debug\netcoreapp2.1\TestApp.pdb
