@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using HDR_UK_Web_Application.utils;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -26,9 +27,16 @@ namespace HDR_UK_Web_Application
 
         public void ConfigureServices(IServiceCollection services)
         {
+            AuthenticationConfig config = AuthenticationConfig.ReadFromJsonFile("appsettings.Development.json");
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.AddMemoryCache();
             services.AddHttpClient();
+
+            services.AddHttpClient("machinelearning", options =>
+            {
+                options.DefaultRequestHeaders.Add("Ocp-Apim-Subscription-Key", config.OcpApimSubscriptionKey);
+            });
 
             services.AddCors(options =>
             {

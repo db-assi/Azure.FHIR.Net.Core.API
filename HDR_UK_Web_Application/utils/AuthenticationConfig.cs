@@ -64,6 +64,11 @@ namespace HDR_UK_Web_Application.utils
             Configuration = builder.Build();
             return Configuration.Get<AuthenticationConfig>();
         }
+
+        public string OcpApimSubscriptionKey { get; set; }
+
+        public string MLBaseAddress { get; set; }
+
     }
 
 }

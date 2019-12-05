@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Caching.Memory;
 using HDR_UK_Web_Application.utils;
 using System.Net.Http;
+using Newtonsoft.Json.Linq;
 
 namespace HDR_UK_Web_Application.Controllers
 {
@@ -23,32 +24,6 @@ namespace HDR_UK_Web_Application.Controllers
             _cache = cache;
             _httpClientFactory = httpClientFactory;
         }
-
-        //[HttpGet]
-        //public string Get()
-        //{
-
-        //    return cache.GetOrCreate<string>("IDGKey", cacheEntry =>
-        //    {
-        //        cacheEntry.SetAbsoluteExpiration(TimeSpan.FromHours(1));
-        //        return DateTime.Now.ToString();
-        //    });
-        //}
-
-        //[HttpGet]
-        //public Task<String> Get()
-        //{
-        //    Task<string> accessToken = null;
-
-        //    cache.GetOrCreateAsync<string>("AccessToken", cacheEntry =>
-        //    {
-        //        cacheEntry.SetAbsoluteExpiration(TimeSpan.FromHours(1));
-        //        return accessToken = AccessToken.CreateAccessToken();
-        //    });
-
-        //    return accessToken;
-        //}
-
 
         [HttpGet]
         public async Task<String> Get()
@@ -86,8 +61,9 @@ namespace HDR_UK_Web_Application.Controllers
 
         // POST api/values
         [HttpPost]
-        public void Post([FromBody] string value)
+        public void Post([FromBody] JObject data)
         {
+
         }
 
         // PUT api/values/5

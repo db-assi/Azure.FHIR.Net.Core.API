@@ -17,16 +17,6 @@ namespace HDR_UK_Web_Application.Controllers
     [ApiController]
     public class AuthenticationController : ControllerBase
     {
-
-        private IMemoryCache _cache;
-        private readonly IHttpClientFactory _httpClientFactory;
-
-        public AuthenticationController(IMemoryCache cache, IHttpClientFactory httpClientFactory)
-        {
-            _cache = cache;
-            _httpClientFactory = httpClientFactory;
-        }
-
         // POST: api/Authentication
         [HttpPost]
         public IActionResult Authenticate([FromBody] JObject data)
@@ -38,7 +28,7 @@ namespace HDR_UK_Web_Application.Controllers
 
             if(user.userId == null)
             {
-                return BadRequest(new { message = "Incorrect username or password."});
+                return BadRequest(new { message = "Incorrect username or password. Please try again."});
             } else
             {
                 return Ok(user);
